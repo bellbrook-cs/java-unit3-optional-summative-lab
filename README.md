@@ -1,64 +1,112 @@
-# Template Assignment
+# Optional Summative Lab
+
+## Description
+
+You are not required to complete this lab, you may instead choose to opt out of this assignment as a whole.
+
+I will only put this grade onto progressbook if it benefits you and increases your quarter grade.
+
+You will have the entire week from 3/7 to 3/11 to complete this lab.
+
+We have 120 points in the summative category at the moment, meaning that you will have 140 points if you choose to complete this lab.
+
+This also means your total quarter grade may increase anywhere from 0% to 11.4%.
+
+Some examples of how this may affect your grade are listed below:
+
+| Current Summative Grade | Lab Grade | Est. Change in Quarter Grade |
+| - | - | - |
+| 120/120 (100%) | 20/20 (100%) | +0% |
+| 108/120 (90%) | 20/20 (100%) | +1.1% |
+| 96/120 (80%) | 20/20 (100%) | +2.2% |
+| 84/120 (70%) | 20/20 (100%) | +3.4% |
+| 72/120 (60%) | 20/20 (100%) | +4.5% |
+| 60/120 (50%) | 20/20 (100%) | +5.7% |
+| 0/120 (0%) | 20/20 (100%) | +11.4% |
+
+Please consider this when making the decision to complete this lab.
 
 ## Problem Statement
 
-## Input Description
+The focus of this lab is to implement a working implementation of the included flowchart. You may use if-statements or switch-case statements as you feel necessary. Both can be used to complete this lab for full credit provided it matches the flowchart in all cases.
 
-## Sample Input/Output
+## The Flowchart
 
-## Submission
+![](./flow.png)
 
-Please submit the following to google classroom:
+### Notation
 
-1. `Main.java`
-    * Hover over `Main.java`.
-    * Click the three dots to the right of the file name.
-    * Click `Download`.
-    * Upload the downloaded file to google classroom.
-2. A link to your replit project
+#### Parallelogram: input or output
 
-## Rubric
+If one of these blocks starts with "Output", you should display the following message.
 
-<table>
-<tbody>
-  <tr>
-    <td valign="top"><b>Coded Solution</b><br><br>The coded solutions works correctly with no syntax, logic, or run-time errors.</td>
-    <td valign="top"><b>8pts</b><br><br>* The submitted code compiles successfully. <br><br>* The submitted program is free of run-time and logic errors. <br><br>* The submitted program returns the anticipated output for all input tested.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The submitted program compiles successfully. <br><br>* The submitted program includes run-time and/or logic errors that result in correct output. <br><br>* The submitted program returns the anticipated output for most (but not all) input tested.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* A program is submitted but it fails to compile. <br><br><b><em>or</em></b> <br><br>* The submitted program compiles correctly. <br><br>* The submitted program includes run-time and/or logic errors that result in incorrect output. <br><br>* The submitted program returns the anticipated output for less than half of the input tested.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Target Concepts</b><br><br>The program effectively uses the intended target concepts.</td>
-    <td valign="top"><b>8pts</b><br><br>* The program effectively uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Moderate effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Minimal effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b><br><br> * No attempt was made to use the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>User Interface</b><br><br>The program produces output that is easy for the user to read.</td>
-    <td valign="top"><b>2pts</b><br><br>* Output demonstrates appropriate spacing for best user readability. <br><br>* Output contains no spelling or grammatical errors.
-</td>
-    <td valign="top"><b>1pts</b><br><br>* Output includes minor spacing problems which results in information which is inconsistent or confusing. <br><br>* Output contains minor spelling or grammatical errors.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* Output includes major spacing problems which is severely inconsistent or confusing. <br><br>* Output contains major spelling or grammatical errors.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Readability of Code</b><br><br>The program code is documented and formatted for human readability.</td>
-    <td valign="top"><b>2pts</b><br><br>* The submitted solution includes the required header documentation (name, date, purpose). <br><br>* Header documentation includes appropriate modification comments if the submitted solution is a modification to a previously submitted program. <br><br>* Code is properly formatted. Open and close brackets are properly aligned and code within the brackets is appropriately indented. <br><br>* All variables are self-documented (i.e. named in such a way that the name indicates the purpose of the variable).
-</td>
-    <td valign="top"><b>1pts</b><br><br>* The submitted solution includes the some, but not ALL, of the required header documentation (name, date, purpose). <br><br>* In the case of modifications to a previously submitted program, modification comments are missing or incomplete. <br><br>* Code is unformatted and difficult to follow. Brackets aren't aligned and/or code within brackets is not indented. <br><br>* Numerous variable names are ambiguous (i.e. x) and do not indicate the purpose of the variable.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* The submitted solution includes no documentation of any kind.</td>
-  </tr>
-</tbody>
-</table>
+If one of these blocks starts with "Input", you should get user input and store it inside of a variable with a name matching the remainder of the block.
+
+#### Diamond: branching logic
+
+These make a decision based on the condition or expression listed after the word "Branch". If there is not condition or expression listed, the condition of each branch is described on the lines extending from the diamond block.
+
+#### Rounded Rectangles: terminals
+
+The start and end blocks have a unique shape to give you an idea of where to start and end your program.
+
+## Input/Output
+
+You may assume there is no input that would result in a branch that is not depicted in the flowchart.
+
+- You should assume `path` is an integer
+- You should assume `num1` is a floating point number
+- You should assume `s1` is a String that may or may not contain spaces
+
+### Sample Runs
+
+```
+This is step 1!
+Which path would you like to take? 1
+This is path one!
+Enter a number: 100
+That is a positive number!
+That is the end of path 1
+```
+
+```
+This is step 1!
+Which path would you like to take? 2
+This is path two!
+Not much happens here, why don't you try path 3...
+This is path three!
+What is a word that starts with a vowel? Adieu
+Good job!
+```
+
+```
+This is step 1!
+Which path would you like to take? 3
+This is path three!
+What is a word that starts with a vowel? word
+yikes...
+```
+
+## Grading
+
+- The first line of output matches the flowchart. (1 point)
+- The second line of output matches the flowchart. (1 point)
+- The variable `path` is declared to be of an appropriate type. (1 point)
+- The user's input is stored inside of a variable named `path`. (1 point)
+- A different message is displayed based on the value of the variable `path`. (1 point)
+- When appropriate, the user is prompted for a number. (1 point)
+- When appropriate, a variable `num1` is declared to be of an appropriate type. (1 point)
+- When appropriate, the user's input is stored inside of the variable `num1`. (1 point)
+- When appropriate, the program provides the proper output based on the value of `num1`. (1 point)
+- The last line of output matches the flowchart when path 1 is chosen. (1 point)
+- When path 2 is chosen, the appropriate output is displayed. (1 point)
+- When appropriate, the user is prompted for a word that starts with a vowel. (1 point)
+- When appropriate, a variable `s1` is declared to be of an appropriate type. (1 point)
+- When appropriate, the user's input is stored inside of the variable `s1`. (1 point)
+- When appropriate, the program provides the proper output based on the value of `s1`. (1 point)
+- The program properly identifies when `s1` starts with a vowel, regardless of case. (1 point)
+- Code style standards have been followed as discussed in class. (4 points)
+
+## Footnotes
+
+You should not include any extraneous output, and you should assume the output is case sensitive. Please make careful note of how the output is formatted in the sample runs, and how the output is formatted in the flowchart.
